@@ -1,0 +1,11 @@
+document.getElementById("toggleMode").onclick=()=>{
+  document.body.classList.toggle("dark-mode")
+}
+document.getElementById("toggle_menu").onclick=()=>{
+  if(document.getElementById("menu").classList.contains("open")){
+document.getElementById("menu").classList.remove("open")
+  }
+  else{
+    document.getElementById("menu").classList.add("open");
+  }
+}
