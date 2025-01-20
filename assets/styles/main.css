@@ -14,7 +14,7 @@
   --white-color: #eeeeee;
 }
 .container {
-  padding: 0 15px;
+  padding: 0 30px;
   margin: auto;
 }
 @media (min-width: 768px) {
